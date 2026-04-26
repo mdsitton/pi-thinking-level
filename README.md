@@ -99,7 +99,8 @@ Example flow:
 
 ```text
 pi-thinking-level/
-├── index.ts
+├── src/
+│   └── index.ts
 ├── package.json
 ├── README.md
 └── LICENSE
@@ -110,17 +111,23 @@ The package uses the pi package manifest in `package.json`:
 ```json
 {
   "pi": {
-    "extensions": ["./index.ts"]
+    "extensions": ["./src/index.ts"]
   }
 }
 ```
 
 ## Development
 
-Test locally with:
+Test the extension entrypoint directly with:
 
 ```bash
-pi -e ./index.ts
+pi -e ./src/index.ts
+```
+
+Or test the package root with:
+
+```bash
+pi -e .
 ```
 
 Or place the folder in:

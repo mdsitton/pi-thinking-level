@@ -1,0 +1,39 @@
+{
+  "name": "pi-thinking-level",
+  "version": "0.1.0",
+  "description": "A tiny pi package that adds a /thinking command to set and persist pi's default thinking level.",
+  "keywords": [
+    "pi-package",
+    "pi-extension",
+    "pi",
+    "thinking",
+    "reasoning"
+  ],
+  "license": "MIT",
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "typecheck": "tsc -p tsconfig.json"
+  },
+  "peerDependencies": {
+    "@mariozechner/pi-coding-agent": "*"
+  },
+  "pi": {
+    "extensions": [
+      "./src/index.ts"
+    ]
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "typescript": "^5.8.0"
+  }
+}
