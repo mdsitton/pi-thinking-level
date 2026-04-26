@@ -10,6 +10,14 @@
     "reasoning"
   ],
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mdsitton/pi-thinking-level.git"
+  },
+  "homepage": "https://github.com/mdsitton/pi-thinking-level#readme",
+  "bugs": {
+    "url": "https://github.com/mdsitton/pi-thinking-level/issues"
+  },
   "files": [
     "src",
     "README.md",

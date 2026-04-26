@@ -53,7 +53,7 @@ pi install npm:pi-thinking-level
 ### From GitHub
 
 ```bash
-pi install git:github.com/<your-user>/pi-thinking-level
+pi install git:github.com/mdsitton/pi-thinking-level
 ```
 
 ### From a local path
