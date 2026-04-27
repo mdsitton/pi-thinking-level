@@ -1,6 +1,6 @@
 {
   "name": "pi-thinking-level",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A tiny pi package that adds a /thinking command to set and persist pi's default thinking level.",
   "keywords": [
     "pi-package",
@@ -9,6 +9,7 @@
     "thinking",
     "reasoning"
   ],
+  "author": "Matthew Sitton",
   "license": "MIT",
   "repository": {
     "type": "git",
