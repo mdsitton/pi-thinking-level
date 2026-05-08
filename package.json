@@ -1,6 +1,6 @@
 {
   "name": "pi-thinking-level",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "A tiny pi package that adds a /thinking command to set and persist pi's default thinking level.",
   "keywords": [
     "pi-package",
@@ -31,7 +31,7 @@
     "typecheck": "tsc -p tsconfig.json"
   },
   "peerDependencies": {
-    "@mariozechner/pi-coding-agent": "*"
+    "@earendil-works/pi-coding-agent": "*"
   },
   "pi": {
     "extensions": [
